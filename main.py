@@ -37,7 +37,7 @@ if __name__ == '__main__':
     cur_path = os.path.abspath(os.curdir)
     cur_time= time.strftime('%Y%m%d_%H%M%S',time.localtime(time.time()))
     out_put=(cur_path + '/' + 'dbsync' + cur_time + '.sql')
-    con=pymysql.connect(host='10.80.61.80',user='root',passwd='wjzs1qaz', db='archive')
+    con=pymysql.connect(host='***',user='***',passwd='***', db='***')
     cursor=con.cursor()
     try:
         sql = "select  server_source, port_source, user_source, password_source, db_source," \
