@@ -1,4 +1,4 @@
-# mysql_schema_synic
+# mysql_schema_sync
 1.工作中经常有需要同步不同数据库之间表结构的需求，如PROD--->UAT;PROD---->FAT;为了实现这一需求，写了一个小程序来实现
 
 
