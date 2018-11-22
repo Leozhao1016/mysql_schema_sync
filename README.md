@@ -1,5 +1,5 @@
 # mysql_schema_sync
-1.工作中经常有需要同步不同数据库之间表结构的需求，如PROD--->UAT;PROD---->FAT;为了实现这一需求，写了一个小程序来实现
+1.工作中经常有需要同步不同数据库之间表结构的需求，如PROD--->UAT;PROD---->FAT;为了实现这一需求，写了一个小程序来实现。
 
 
 
@@ -37,6 +37,6 @@ con=pymysql.connect(host='***',user='***',passwd='***', db='***')
 
 
 4.程序使用Pytho3编写，使用时可以结合Linux定时任务实现定时同步表结构：
-python3 main.y 3
+python3 main.py 3
 
 
